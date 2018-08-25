@@ -27,4 +27,14 @@ public partial class Main_Page : System.Web.UI.Page
     {
         form1.Attributes.CssStyle.Add("BACKGROUND-COLOR", "#81F79F");
     }
+
+    protected void italic_Click(object sender, EventArgs e)
+    {
+        form1.Attributes.CssStyle.Add("font-weight", "italic");
+    }
+
+    protected void bold_Click(object sender, EventArgs e)
+    {
+        form1.Attributes.CssStyle.Add("font-weight", "bold");
+    }
 }
