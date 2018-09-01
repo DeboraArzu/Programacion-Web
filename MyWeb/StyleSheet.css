@@ -1,0 +1,17 @@
+﻿body {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    background-color: lightblue;
+}
+
+h1 {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
