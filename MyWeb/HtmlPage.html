@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="form1" runat="server" class="form-control-lg">
         <div class="container-fluid text-center">
             <h1>My WebPage</h1>
             <p>
@@ -20,14 +20,18 @@
                 Cambiar fondo de color
             </p>
         </div>
-        <div class="container-fluid">
+        <div class="container-fluid" id="div1">
             <div class="btn-group-vertical">
-                <button type="button" class="btn btn-primary" id="YellowButton" onclick="myFunction()">
+                <button type="button" class="btn btn-primary" id="YellowButton" onclick="myFunction('yellow')">
                     Clic me
                 </button>
-                
-                <button type="button" class="btn btn-primary">or Clic me</button>
-                <button type="button" class="btn btn-primary">Clic me, I am the best</button>
+
+                <button type="button" class="btn btn-primary" id="PurpleButton" onclick="myFunction('green')">
+                    or Clic me
+                </button>
+                <button type="button" class="btn btn-primary" id="OrangeButton" onclick="myFunction('orange')">
+                    Clic me, I am the best
+                </button>
             </div>
         </div>
     </form>
