@@ -43,8 +43,15 @@ p {
     background-color: green;
     border-color: black
 }
+
 .btn-blue {
     color: black;
     background-color: lightskyblue;
     border-color: black
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
 }
