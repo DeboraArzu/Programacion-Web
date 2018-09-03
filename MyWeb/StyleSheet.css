@@ -4,6 +4,8 @@
     font-weight: bold;
     font-style: italic;
     background-color: lightskyblue;
+    /*margin-top: 20px;*/
+    /*background-image: linear-gradient(90deg, #4db8ff, #FFFFFF);*/
 }
 
 h1 {
@@ -41,7 +43,8 @@ p {
     background-color: green;
     border-color: black
 }
-
-* {
-    box-sizing: border-box
+.btn-blue {
+    color: black;
+    background-color: lightskyblue;
+    border-color: black
 }
