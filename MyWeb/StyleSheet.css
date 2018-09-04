@@ -1,11 +1,28 @@
-﻿body {
+﻿/*body {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    background-color: #000000;
+    padding: 0;
+    margin: 0;
+}*/
+
+#gradient {
+    width: 100%;
+    height: 800px;
+    padding: 0;
+    margin: 0;
+}
+
+body {
     color: black;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     font-style: italic;
     background-color: lightskyblue;
-    /*margin-top: 20px;*/
-    /*background-image: linear-gradient(90deg, #4db8ff, #FFFFFF);*/
+    margin-top: 20px;
+    background-image: linear-gradient(90deg, #4db8ff, #FFFFFF);
 }
 
 h1 {
@@ -109,3 +126,4 @@ p {
             font-size: 18px;
         }
 }
+

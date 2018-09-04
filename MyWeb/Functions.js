@@ -10,3 +10,8 @@ function openNav() {
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 } 
+
+function init() {
+    var someimage = 'fes';
+    document.body.style.backgroundImage = SVGLinearGradientElement();
+}
