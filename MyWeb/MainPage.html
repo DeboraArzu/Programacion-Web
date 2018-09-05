@@ -16,12 +16,12 @@
 <body>
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#">Debora Arzu</a>
-        <a href="#">carné 1098913</a>
+        <a style="color:white">Debora Arzu</a>
+        <a style="color:white">carné 1098913</a>
         <img class="d-block w-25" src="img/me.jpg" alt="First slide">
     </div>
     <!-- Use any element to open the sidenav -->
-    <span onclick="openNav()">open Sidenav</span>
+    <span onclick="openNav()">Who made it?</span>
 
     <div id="main">
         <!-- Encabezado -->
@@ -29,17 +29,16 @@
             <img src="img/logo.png" class="img-circle" alt="Cinque Terre">
             <h1> My WebPage</h1>
             <p>Primer Laboratorio de Programacion Web.</p>
-            <p>Débora Arzú.</p>
         </div>
         <!-- botones -->
         <div class="container-fluid" id="div2">
             <p>Cambiar fondo de color</p>
-            <div class="btn-group-vertical">
-                <button type="button" class="btn-yellow" id="YellowButton" onclick="myFunction('yellow')" style="margin-bottom:10px"></button>
-                <button type="button" class="btn-green" id="PurpleButton" onclick="myFunction('green')" style="margin-bottom:10px"></button>
-                <button type="button" class="btn-orange" id="OrangeButton" onclick="myFunction('orange')" style="margin-bottom:10px"></button>
-                <button type="button" class="btn-blue" id="BlueButton" onclick="myFunction('lightskyblue')" style="margin-bottom:10px"></button>
-                <button type="button" class="btn-blue" id="BlueButton" onclick="init()" style="margin-bottom:10px"></button>
+            <div class="btn-group-toggle">
+                <button type="button" class="btn-yellow btn-lg" id="YellowButton" onclick="myFunction('yellow')" style="margin-bottom:10px"></button>
+                <button type="button" class="btn-green btn-lg" id="PurpleButton" onclick="myFunction('green')" style="margin-bottom:10px"></button>
+                <button type="button" class="btn-orange btn-lg" id="OrangeButton" onclick="myFunction('orange')" style="margin-bottom:10px"></button>
+                <button type="button" class="btn-blue btn-lg" id="BlueButton" onclick="myFunction('lightskyblue')" style="margin-bottom:10px"></button>
+                <button type="button" class="btn-blue btn-lg" id="BlueButton" onclick="init()" style="margin-bottom:10px"></button>
             </div>
         </div>
         <!--Division entre botones e imagenes-->
